@@ -1,0 +1,101 @@
+https://documenter.getpostman.com/view/42558480/2sAYkAPh7V
+
+
+
+URL -> https://simple-books-api.glitch.meEndFragment﻿
+
+﻿
+
+POST
+createToken
+https://simple-books-api.glitch.me/api-clients
+﻿
+
+Body
+raw (json)
+json
+{
+    "clientName":"Training",
+    "clientEmail":"training@gamil.com"
+}
+GET
+bookList
+https://simple-books-api.glitch.me/books
+﻿
+
+GET
+booksStatus
+https://simple-books-api.glitch.me/status
+﻿
+
+GET
+getSingleBook
+https://simple-books-api.glitch.me/books/1
+﻿
+
+POST
+orderBook
+https://simple-books-api.glitch.me/orders
+Token -> 852d1c36cbabdbe25812004678a2e45a267da20525c7e8987a4a6e0e52c65506
+
+﻿
+
+Authorization
+Bearer Token
+Token
+<token>
+Body
+raw (json)
+json
+{
+    "bookId": 1,
+    "customerName": "John"
+}
+GET
+getAllOrders
+https://simple-books-api.glitch.me/orders
+﻿
+
+Authorization
+Bearer Token
+Token
+<token>
+GET
+getSingleOrder
+https://simple-books-api.glitch.me/orders/N_ovRT_lEOdCXaduuzDZj
+Token -> 852d1c36cbabdbe25812004678a2e45a267da20525c7e8987a4a6e0e52c65506
+
+﻿
+
+Authorization
+Bearer Token
+Token
+<token>
+PATCH
+changeOrder
+https://simple-books-api.glitch.me/orders/N_ovRT_lEOdCXaduuzDZj
+Token -> 852d1c36cbabdbe25812004678a2e45a267da20525c7e8987a4a6e0e52c65506
+
+﻿
+
+Authorization
+Bearer Token
+Token
+<token>
+Body
+raw (json)
+json
+{
+    "customerName":"Scott"
+}
+DELETE
+deleteOrder
+https://simple-books-api.glitch.me/orders/N_ovRT_lEOdCXaduuzDZj
+Token -> 852d1c36cbabdbe25812004678a2e45a267da20525c7e8987a4a6e0e52c65506
+
+﻿
+
+Authorization
+Bearer Token
+Token
+<token>
